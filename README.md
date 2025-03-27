@@ -16,7 +16,7 @@ Script de Bash para generación de hash con características avanzadas de seguri
 - OpenSSL
 - Sistemas Unix/Linux
 
-## Instalación
+# Instalación
 
 ```bash
 git clone https://github.com/ALetsee/Hashing.SH/tree/main
@@ -24,7 +24,7 @@ cd Hashing
 chmod +x Hashing.sh
 ```
 
-## Uso
+# Uso
 
 1. Ejecutar el script:
 ```bash
@@ -36,7 +36,7 @@ Hashing.sh
 - Crear nueva Sal y Pepper
 - Salir
 
-##Funcionamiento
+# Funcionamiento
 
 1. Genera sal y pepper de forma segura
 2. Transforma texto en hash mediante:
@@ -45,7 +45,7 @@ Hashing.sh
    - Mezcla de bits
    - Incorporación de sal y pepper
 
-## Precauciones
+# Precauciones
 
 - Guarde valores de sal y pepper de forma segura
 - No comparta archivos `salt.txt` y `pepper.txt`
